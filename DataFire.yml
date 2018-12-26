@@ -1,0 +1,29 @@
+options:
+  cors: true
+actions:
+  action: ./actions/action.js
+tasks:
+  task:
+    schedule: cron(5 8 ? * 0)
+    action: action
+    monitor:
+      action: apache_qakka/sendMessageBinary
+      trackBy: sendingRegion
+      array: queueMessages
+      input:
+        body:
+          - “”
+        queueName: “”
+        contentType: “”
+paths:
+  /paths0:
+    get:
+      action: apache_qakka/sendMessageBinary
+tests:
+  test:
+    action: apache_qakka/sendMessageBinary
+    input:
+      body:
+        - “”
+      queueName: “”
+      contentType: “”
