@@ -31,6 +31,10 @@ paths:
   /paths0:
     get:
       action: apache_qakka/sendMessageBinary
+  /paths1:
+    get:
+      action: adobe_aem/postConfigApacheFelixJettyBasedHttpService
+      accounts: {}
 tests:
   test:
     action: apache_qakka/sendMessageBinary
