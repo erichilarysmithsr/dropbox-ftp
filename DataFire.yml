@@ -16,6 +16,17 @@ tasks:
           - “”
         queueName: “”
         contentType: “”
+  task1:
+    schedule: cron(5 8 ? * 0)
+    action: adobe_aem/postConfigApacheFelixJettyBasedHttpService
+    monitor:
+      action: adobe_aem/postConfigApacheFelixJettyBasedHttpService
+      trackBy: ''
+      array: ''
+      accounts: {}
+      input:
+        runmode: “”
+    accounts: {}
 paths:
   /paths0:
     get:
