@@ -43,3 +43,8 @@ tests:
         - “”
       queueName: “”
       contentType: “”
+  test1:
+    action: adobe_aem/postConfigApacheFelixJettyBasedHttpService
+    accounts: {}
+    input:
+      runmode: “”
