@@ -1,8 +1,14 @@
 {
   "dependencies": {
     "@datafire/apache_qakka": "3.0.0",
-    "@datafire/adobe_aem": "3.0.0"
+    "@datafire/adobe_aem": "3.0.0",
+    "snyk": "^1.189.0"
   },
   "name": "yellowscreen",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
