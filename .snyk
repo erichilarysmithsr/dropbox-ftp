@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@datafire/apache_qakka > datafire > async > lodash':
+        patched: '2020-05-01T06:31:55.924Z'
+    - '@datafire/apache_qakka > datafire > inquirer > lodash':
+        patched: '2020-05-01T06:31:55.924Z'
+    - '@datafire/apache_qakka > datafire > swagger-express-middleware > lodash':
+        patched: '2020-05-01T06:31:55.924Z'
