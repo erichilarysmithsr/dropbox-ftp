@@ -28,6 +28,15 @@ tasks:
       input:
         runmode: “”
     accounts: {}
+  task2:
+    action: rubygems/api_key.format.get
+    schedule: cron(5 8 ? * 0)
+    monitor:
+      action: rubygems/api_key.format.get
+      trackBy: ''
+      array: ''
+      input:
+        format: '""'
 paths:
   /paths0:
     get:
