@@ -61,3 +61,7 @@ tests:
     accounts: {}
     input:
       runmode: “”
+  test2:
+    action: rubygems/api_key.format.get
+    input:
+      format: '""'
