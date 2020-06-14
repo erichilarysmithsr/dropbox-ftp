@@ -45,6 +45,9 @@ paths:
     get:
       action: adobe_aem/postConfigApacheFelixJettyBasedHttpService
       accounts: {}
+  /paths2:
+    get:
+      action: rubygems/api_key.format.get
 tests:
   test:
     action: apache_qakka/sendMessageBinary
