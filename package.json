@@ -2,7 +2,8 @@
   "dependencies": {
     "@datafire/apache_qakka": "3.0.0",
     "@datafire/adobe_aem": "3.0.0",
-    "@datafire/rubygems": "4.0.0"
+    "@datafire/rubygems": "4.0.0",
+    "@datafire/box_authorization": "5.0.0"
   },
   "name": "yellowscreen",
   "version": "1.0.0"
