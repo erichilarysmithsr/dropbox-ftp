@@ -75,6 +75,10 @@ paths:
   /paths3:
     get:
       action: box_authorization/authorize
+  /paths4:
+    get:
+      action: dropbox_content/oauthCallback
+      accounts: {}
 tests:
   test:
     action: apache_qakka/sendMessageBinary
