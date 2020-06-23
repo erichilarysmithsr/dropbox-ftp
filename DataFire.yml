@@ -61,6 +61,9 @@ paths:
   /paths2:
     get:
       action: rubygems/api_key.format.get
+  /paths3:
+    get:
+      action: box_authorization/authorize
 tests:
   test:
     action: apache_qakka/sendMessageBinary
