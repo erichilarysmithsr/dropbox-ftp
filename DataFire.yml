@@ -103,3 +103,8 @@ tests:
       client_id: '""'
       redirect_uri: '""'
       state: '""'
+  test4:
+    action: dropbox_content/oauthCallback
+    input:
+      code: '""'
+    accounts: {}
