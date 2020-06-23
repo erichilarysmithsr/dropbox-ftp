@@ -81,3 +81,10 @@ tests:
     action: rubygems/api_key.format.get
     input:
       format: '""'
+  test3:
+    action: box_authorization/authorize
+    input:
+      response_type: '""'
+      client_id: '""'
+      redirect_uri: '""'
+      state: '""'
