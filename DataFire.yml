@@ -50,6 +50,17 @@ tasks:
         client_id: '""'
         redirect_uri: '""'
         state: '""'
+  task4:
+    schedule: cron(5 8 ? * 0)
+    action: dropbox_content/oauthCallback
+    monitor:
+      action: dropbox_content/oauthCallback
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
+      accounts: {}
+    accounts: {}
 paths:
   /paths0:
     get:
