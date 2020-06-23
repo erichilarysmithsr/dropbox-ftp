@@ -39,8 +39,17 @@ tasks:
       input:
         format: '""'
   task3:
-    schedule: rate(1 day)
-    action: action
+    schedule: cron(5 8 ? * 0)
+    action: box_authorization/authorize
+    monitor:
+      action: box_authorization/authorize
+      trackBy: ''
+      array: ''
+      input:
+        response_type: '""'
+        client_id: '""'
+        redirect_uri: '""'
+        state: '""'
 paths:
   /paths0:
     get:
