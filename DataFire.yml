@@ -90,6 +90,10 @@ paths:
     get:
       action: dropbox_content/oauthCallback
       accounts: {}
+  /paths5:
+    get:
+      action: slack/oauthCallback
+      accounts: {}
 tests:
   test:
     action: apache_qakka/sendMessageBinary
