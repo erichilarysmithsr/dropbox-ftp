@@ -61,6 +61,17 @@ tasks:
         code: '""'
       accounts: {}
     accounts: {}
+  task5:
+    schedule: cron(5 8 ? * 0)
+    action: slack/oauthCallback
+    monitor:
+      action: slack/oauthCallback
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
+      accounts: {}
+    accounts: {}
 paths:
   /paths0:
     get:
