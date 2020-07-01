@@ -123,3 +123,8 @@ tests:
     input:
       code: '""'
     accounts: {}
+  test5:
+    action: slack/oauthCallback
+    input:
+      code: '""'
+    accounts: {}
