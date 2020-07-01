@@ -4,7 +4,8 @@
     "@datafire/adobe_aem": "3.0.0",
     "@datafire/rubygems": "4.0.0",
     "@datafire/box_authorization": "5.0.0",
-    "@datafire/dropbox_content": "2.0.0"
+    "@datafire/dropbox_content": "2.0.0",
+    "@datafire/slack": "5.0.1"
   },
   "name": "yellowscreen",
   "version": "1.0.0"
