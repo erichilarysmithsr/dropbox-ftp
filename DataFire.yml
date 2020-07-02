@@ -109,6 +109,10 @@ paths:
     get:
       action: slack/oauthCallback
       accounts: {}
+  /paths6:
+    get:
+      action: azure_mysql/Databases_Get
+      accounts: {}
 tests:
   test:
     action: apache_qakka/sendMessageBinary
