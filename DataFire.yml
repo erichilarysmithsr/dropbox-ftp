@@ -72,6 +72,21 @@ tasks:
         code: '""'
       accounts: {}
     accounts: {}
+  task6:
+    schedule: cron(5 8 ? * 0)
+    action: azure_mysql/Databases_Get
+    monitor:
+      action: azure_mysql/Databases_Get
+      trackBy: ''
+      array: ''
+      input:
+        api-version: '""'
+        subscriptionId: '""'
+        resourceGroupName: '""'
+        serverName: '""'
+        databaseName: '""'
+      accounts: {}
+    accounts: {}
 paths:
   /paths0:
     get:
