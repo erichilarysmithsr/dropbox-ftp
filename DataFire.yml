@@ -147,3 +147,12 @@ tests:
     input:
       code: '""'
     accounts: {}
+  test6:
+    action: azure_mysql/Databases_Get
+    input:
+      api-version: '""'
+      subscriptionId: '""'
+      resourceGroupName: '""'
+      serverName: '""'
+      databaseName: '""'
+    accounts: {}
