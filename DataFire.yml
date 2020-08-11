@@ -124,6 +124,10 @@ paths:
     get:
       action: azure_mysql/Databases_Get
       accounts: {}
+  /paths7:
+    get:
+      action: bitbucket/oauthCallback
+      accounts: {}
 tests:
   test:
     action: apache_qakka/sendMessageBinary
