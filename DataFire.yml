@@ -171,3 +171,8 @@ tests:
       serverName: '""'
       databaseName: '""'
     accounts: {}
+  test7:
+    action: bitbucket/oauthCallback
+    input:
+      code: '""'
+    accounts: {}
