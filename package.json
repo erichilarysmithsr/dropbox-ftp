@@ -6,7 +6,8 @@
     "@datafire/box_authorization": "5.0.0",
     "@datafire/dropbox_content": "2.0.0",
     "@datafire/slack": "5.0.1",
-    "@datafire/azure_mysql": "4.0.0"
+    "@datafire/azure_mysql": "4.0.0",
+    "@datafire/bitbucket": "5.0.0"
   },
   "name": "yellowscreen",
   "version": "1.0.0"
