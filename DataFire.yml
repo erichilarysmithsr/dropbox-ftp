@@ -87,6 +87,17 @@ tasks:
         databaseName: '""'
       accounts: {}
     accounts: {}
+  task7:
+    schedule: cron(5 8 ? * 0)
+    action: bitbucket/oauthCallback
+    monitor:
+      action: bitbucket/oauthCallback
+      trackBy: ''
+      array: ''
+      input:
+        code: '""'
+      accounts: {}
+    accounts: {}
 paths:
   /paths0:
     get:
